@@ -1,0 +1,12 @@
+p, select {
+    margin: 6px;
+    font: 16px Arial;
+}
+select {
+    width: 262px;
+    height: 32px;
+    padding: 4px;
+    line-height: 32px;
+    text-indent: 4px;
+    cursor: pointer;
+}
