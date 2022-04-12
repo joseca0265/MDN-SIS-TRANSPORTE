@@ -123,7 +123,6 @@ include('departamentos.php');
 
 		?>
 <script>
-		
   document.addEventListener('DOMContentLoaded', function() {
 	  var options={
 		   data: {
@@ -140,7 +139,8 @@ include('departamentos.php');
 		"Minicargador": null,
 		
         "Arequipa": null,
-		 "0265-test 132": null
+		"LAPTOP HP": null,
+		"LAPTOP DELL": null,
 		
       },
 	  limit: 4,

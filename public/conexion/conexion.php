@@ -74,6 +74,7 @@ sqlsrv_free_stmt( $stmt);
 			return $stmt;
 		}
 		
+		//Esta es la funcion para la consulta x categoria de equipos del buscador
 		function selectBusquedaCategoria($categoria){
 			$sql = "SELECT * FROM MDN_Equipos_GPS 
 			WHERE Codigo_division = $categoria";
